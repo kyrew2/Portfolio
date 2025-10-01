@@ -89,6 +89,10 @@ section h2 {
     color: #22d3ee;
     text-align: center;
 }
+#sobre p {
+    margin-bottom: 20px;
+    text-align: justify;
+}
 
 .habilidades__lista {
     display: grid;
