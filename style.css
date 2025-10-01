@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Courier New', Courier, monospace;
+    height: 100vh;
+    background-color: black;
+    color: white;
+}
+.titulo-destaque {
+    color: #22d3ee;
+}
+a {
+    display: inline-block; /* Permite definir padding, margin e width/height */
+    background-color: blue; /* Cor de fundo do botão */
+    color: white; /* Cor do texto */
+    padding: 10px 20px; /* Espaçamento interno (vertical e horizontal) */
+    text-decoration: none; /* Remove o sublinhado padrão do link */
+    border-radius: 5px; /* Adiciona cantos arredondados */
+    cursor: pointer; /* Muda o cursor para a mãozinha */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margem externa para espaçamento */
+}
+.icone{
+    width: 30px;
+    margin-right: 10px;
+    border-radius: 20%;
+
+}
+.main {
+    margin: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main__conteudo {
+    width: 615px ;
+}
+.main__conteudo__titulo {
+    font-size: 36px;
+}
